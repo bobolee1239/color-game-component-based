@@ -1,0 +1,22 @@
+.stripe {
+	background: white;
+	padding: 1rem;
+	color: #484848;
+}
+
+.navbar {
+	display: -webkit-flex;
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+}
+
+.navbar .brand {
+	font-weight: bold;
+	padding: 0 1rem;
+}
+
+.navbar .about {
+	margin-left: auto;
+	color: #bbb;
+}

@@ -1,0 +1,23 @@
+.mode {
+    border: none;
+    border-radius: 999rem;
+    background-color: white;
+    color: #484848;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    padding:0.5rem;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.mode:hover{
+    color: steelblue;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white !important;
+}

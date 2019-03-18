@@ -1,0 +1,25 @@
+.card{
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 30%;
+    margin: 1.66%;
+    /* float: left; */
+    outline: none;
+    padding-bottom: 30%;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+}
+
+.card:hover{
+    border: 0.25rem solid steelblue;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.hidden {
+    display: none;
+}

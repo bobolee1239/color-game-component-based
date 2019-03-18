@@ -1,0 +1,19 @@
+.board .color-picked {
+    font-weight: bold;
+	font-size: 120%;
+}
+
+@media (min-width: 576px) {
+	.board .color-pickd {
+	    font-size: 200%;
+	}
+}
+
+.board {
+    color: white;
+    font-weight: normal;
+	margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}

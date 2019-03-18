@@ -1,0 +1,13 @@
+/*
+.deck::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+*/
+.deck{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
