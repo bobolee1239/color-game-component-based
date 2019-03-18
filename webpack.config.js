@@ -32,8 +32,9 @@ module.exports = {
                 }
             }
         ]
-    },
-    optimization:{
+    }
+    /*
+    ,optimization:{
         splitChunks: {
             cacheGroups:{
                 vendor: {
@@ -44,4 +45,5 @@ module.exports = {
             }
         }
     }
+    */
 };
