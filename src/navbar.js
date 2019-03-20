@@ -13,6 +13,10 @@ export default class Navbar extends Component {
         this.modeButtonDeck.on('nightmare', this.handleNightmareMode.bind(this));
     }
 
+    getSelectedMode() {
+        return this.modeButtonDeck.getSelectedMode();
+    }
+
     handleEasyMode(firer){
         this.fire('easy');
     }

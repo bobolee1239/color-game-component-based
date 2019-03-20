@@ -27,3 +27,11 @@ body {
 	margin-right: auto;
     max-width: 620px;
 }
+
+.blink1 {
+	background-color: #fff !important;
+}
+
+.blink2 {
+	background-color: tomato !important;
+}

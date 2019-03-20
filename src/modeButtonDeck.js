@@ -18,11 +18,17 @@ export default class ModeButtonDeck extends Component {
             }
         }
     }
+
+    getSelectedMode() {
+        return this.selectedMode;
+    }
+
     static getRootClass(){
         return '.modeDeck';
     }
 
     handleModeButtonClick(firer){
+        this.selectedMode = firer.mode;
         for(let mode of this.modes){
             if (mode.mode === firer.mode){
                 mode.root.classList.add('selected');

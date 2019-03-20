@@ -10,7 +10,7 @@ export default class Deck extends Component {
         this.numCards = numCards;
         this.gameOver = false;
 
-        let els = document.querySelectorAll(Card.getRootClass());
+        const els = document.querySelectorAll(Card.getRootClass());
         this.cards = [];
 
         /*
@@ -26,11 +26,15 @@ export default class Deck extends Component {
             card.on('click', this.handleCardClick.bind(this));
             this.cards.push(card);
 
-            if(i >= this.numCards)
+            if(i >= this.numCards){
                 this.cards[i].hide();
+            }
         }
-
         this.pickedColor = this.pickColor();
+    }
+
+    setGameOver() {
+        this.gameOver = true;
     }
 
     reset(){
@@ -53,15 +57,19 @@ export default class Deck extends Component {
         return this.pickedColor;
     }
 
+    setCardsColor(color) {
+        for (let card of this.cards) {
+            card.setColor(color);
+        }
+    }
+
     handleCardClick(firer, color){
         if(this.gameOver) return;
 
-        if(firer.getColor() === this.pickedColor){
-            for(let card of this.cards){
-                card.setColor('#ffffff');
-            }
+        if(color === this.pickedColor){
+            this.setCardsColor('#fff');
             this.gameOver = true;
-            this.fire('rightClick');
+            this.fire('rightClick', this.pickedColor);
         } else {
             firer.fadeOut();
             this.fire('wrongClick');

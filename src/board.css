@@ -17,3 +17,12 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+.board .show {
+    visibility: visible;
+    display: inline;
+}
+
+.board .hidden {
+    visibility: hidden;
+}

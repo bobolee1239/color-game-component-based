@@ -25,7 +25,7 @@ export default class Card extends Component{
     }
 
     handleDomClick(){
-        this.fire('click');
+        this.fire('click', this.root.style.backgroundColor);
     }
 
     fadeOut(){
