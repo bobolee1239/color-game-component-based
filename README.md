@@ -4,7 +4,7 @@
     <kbd>
         <img src="assets/demo.gif" alt="demo" style="width: 80%; border-radius:16px; border-color: #232323"/>
     </kbd>
-<div>
+</div>
 
 <hr/>
 
