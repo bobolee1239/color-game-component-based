@@ -1,7 +1,9 @@
 # Color Game
 
 <div align="center" style="max-width: 700px;">
-    <img src="assets/demo.gif" alt="demo" style="width: 80%; border-radius:16px;"/>
+    <kbd>
+        <img src="assets/demo.gif" alt="demo" style="width: 80%; border-radius:16px; border-color: #232323"/>
+    </kbd>
 <div>
 
 <hr/>
