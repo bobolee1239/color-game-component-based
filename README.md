@@ -2,7 +2,7 @@
 
 <div align="center" style="max-width: 900px;">
     <kbd>
-        <img src="assets/demo.gif" alt="demo" style="width: 80%; border-radius:16px; border-color: #232323"/>
+        <img src="assets/demo.gif" alt="demo"/>
     </kbd>
 </div>
 
